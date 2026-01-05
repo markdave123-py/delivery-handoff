@@ -121,7 +121,8 @@ Sequential rider handoff
 
 Idempotent finish behavior
 
-Running the Project
+## Running the Project
+
 1. Environment Variables
 
 Create .env:
@@ -146,7 +147,10 @@ Server runs on:
 
 http://localhost:3000
 
-Project Structure
+
+## Project Structure
+
+```text
 src/
  └── orders/
      ├── entities/
@@ -158,7 +162,8 @@ test/
  └── orders/
      └── orders.concurrency.spec.ts
 
-Assumptions
+
+### Assumptions
 
 One rider works on an order at a time
 
@@ -168,7 +173,8 @@ Database enforces correctness
 
 Focus is correctness over optimization
 
-Summary
+
+### Summary
 
 This implementation demonstrates:
 
