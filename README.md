@@ -68,13 +68,14 @@ POST /orders/:id/start
 
 ```json
 { "riderId": "uuid" }
+```
 
 Finish Work
 POST /orders/:id/finish
 
 ```json
 { "riderId": "uuid" }
-
+```
 ---
 
 ### Concurrency & Consistency
